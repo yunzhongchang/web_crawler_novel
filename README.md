@@ -1,2 +1,12 @@
-# web_crawler_novel
-This is python program web crawler
+# 网页爬虫，爬取小说文本。
+这是一个简单的python爬虫程序，爬取网上的小说全文，然后存储到本地个人电脑中。
+
+# 目录介绍
+code文件夹下是源代码，utils文件夹下是工具包。
+
+# 使用到的技术库
+1.requests
+2.beautifulsoup4
+
+ps：使用时，提前下载这两个技术库的依赖。
+
