@@ -34,25 +34,5 @@ class UrlManager:
         return  len(self.new_url) > 0
 
 
-if __name__ == '__main__':
-    url_manager = UrlManager()
-    url_manager.add_new_url("url1")
-    url_manager.add_new_urls({"url1","url2"})
-    print(url_manager.new_url,url_manager.old_url)
-
-    print("#"*20)
-
-    url = url_manager.get_url()
-    print(url)
-    print(url_manager.new_url, url_manager.old_url)
-
-    print("#" * 20)
-
-    url = url_manager.get_url()
-    print(url)
-    print(url_manager.new_url, url_manager.old_url)
-
-    print("#" * 20)
-
 
 
